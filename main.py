@@ -19,6 +19,6 @@ datum = date(godina, mjesec, dan)
 prodaja["datum"] = datum
 prodaja["korisnik"] = korisnik
 prodaja["artikl"] = artikl
-print("Informacije o artiklu:", "\n\t\t Naslov:", naslov, "\n\t\t Opis:", opis, "\n\t\t Cijena:", cijena)
-print("Datum isteka prodaje:", "\n\t\t Dan:", dan, "\n\t\t Mjesec:", mjesec, "\n\t\t Godina:", godina)
-print("Informacije o korisniku:", "\n\t\t", ime, prezime, "\n\t\t Telefon:", telefon, "\n\t\t Email:", email)  #Ispisuje informacije
+print("Informacije o artiklu:", "\n\t Naslov:", naslov, "\n\t Opis:", opis, "\n\t Cijena:", cijena)
+print("Datum isteka prodaje:", "\n\t Dan:", dan, "\n\t Mjesec:", mjesec, "\n\t Godina:", godina)
+print("Informacije o korisniku:", "\n\t", ime, prezime, "\n\t Telefon:", telefon, "\n\t Email:", email)  #Ispisuje informacije
