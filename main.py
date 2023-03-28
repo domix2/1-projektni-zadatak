@@ -1,7 +1,7 @@
 from datetime import date
 korisnik = {}
-ime = input("Unesite ime korisnika:").capitalize()
-prezime = input("Unesite prezime korisnika:").capitalize()
+ime = input("Unesite ime korisnika:").capitalize().strip()
+prezime = input("Unesite prezime korisnika:").capitalize().strip()
 telefon = str(input("Unesite telefon korisnika:")).strip()
 email = input("Unesite email korisnika:").strip()
 korisnik[ime] = prezime, telefon, email  # Spremam unesene ime,prezime,telefon i email u riječnik korisnik
@@ -21,4 +21,4 @@ prodaja["korisnik"] = korisnik
 prodaja["artikl"] = artikl
 print("Informacije o artiklu:", "\n\t Naslov:", naslov, "\n\t Opis:", opis, "\n\t Cijena:", cijena)
 print("Datum isteka prodaje:", "\n\t Dan:", dan, "\n\t Mjesec:", mjesec, "\n\t Godina:", godina)
-print("Informacije o korisniku:", "\n\t", ime, prezime, "\n\t Telefon:", telefon, "\n\t Email:", email)  #Ispisuje informacije
+print("Informacije o korisniku:", "\n\t", ime,prezime, "\n\t Telefon:", telefon, "\n\t Email:", email)  #Ispisuje informacije
