@@ -2,12 +2,12 @@ from datetime import date
 korisnik = {}
 korisnik["ime"] = input("Unesite ime korisnika:").capitalize().strip()
 korisnik["prezime"] = input("Unesite prezime korisnika:").capitalize().strip()
-korisnik["telefon"] = str(input("Unesite telefon korisnika:")).strip()
+korisnik["telefon"] = int(input("Unesite telefon korisnika:"))
 korisnik["email"] = input("Unesite email korisnika:").strip()
 artikl = {}
 artikl["naslov"] = input("Unesite naslov artikla:")
 artikl["opis"] = input("Unesite opis artikla:")
-artikl["cijena"] = str(input("Unesite cijenu artikla:"))
+artikl["cijena"] = float(input("Unesite cijenu artikla:"))
 artikl["korisnik"] = korisnik
 prodaja = {}
 dan = int(input("Unesite dan isteka prodaje:"))
