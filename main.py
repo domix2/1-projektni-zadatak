@@ -1,5 +1,5 @@
 from datetime import date
-korisnik = {}
+korisnik ={}
 korisnik["ime"] = input("Unesite ime korisnika:").capitalize().strip()
 korisnik["prezime"] = input("Unesite prezime korisnika:").capitalize().strip()
 korisnik["telefon"] = int(input("Unesite telefon korisnika:"))
